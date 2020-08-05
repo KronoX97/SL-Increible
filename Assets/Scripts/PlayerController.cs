@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
         //relacionamos el componente animator y el componente de masas
         anim = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
+
+
     }
 
     void Update()
